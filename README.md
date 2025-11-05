@@ -28,12 +28,12 @@ How to run:
 
 Basic usage (passive scan):
 
-  python3 owasp_scan_report.py https://example.com'''
+  python3 owasp_scan_report.py https://example.com ```
 
 
 Active mode (for lab testing only — requires permission):
 
-  python3 owasp_scan_report.py https://example.com --active'''
+  python3 owasp_scan_report.py https://example.com --active ```
 
 
 When the scan finishes, it will create a folder under results_owasp/ that contains a Word report and log files.
