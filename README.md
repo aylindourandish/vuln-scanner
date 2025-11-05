@@ -27,14 +27,13 @@ Requirements
 How to run:
 
 Basic usage (passive scan):
-
-  python3 owasp_scan_report.py https://example.com ```
-
-
+  ```bash
+  python3 owasp_scan_report.py https://example.com 
+```
 Active mode (for lab testing only — requires permission):
-
-  python3 owasp_scan_report.py https://example.com --active ```
-
+  ```bash
+  python3 owasp_scan_report.py https://example.com --active 
+```
 
 When the scan finishes, it will create a folder under results_owasp/ that contains a Word report and log files.
 
@@ -43,5 +42,9 @@ Note:
 Please do not use this script on websites you don’t own or have written permission to test.
 Unauthorized scanning can be illegal in many countries.
 This tool is made for learning purposes — perfect for students, ethical hackers, and penetration testers who want to understand the basics of web app testing.
+
+
+
+
 
 
