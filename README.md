@@ -28,7 +28,7 @@ How to run:
 
 Basic usage (passive scan):
 
-  python3 owasp_scan_report.py https://example.com
+  '''python3 owasp_scan_report.py https://example.com'''
 
 
 Active mode (for lab testing only — requires permission):
